@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"><group android:checkableBehavior="single"><item android:id="@+id/nav_home" android:icon="@drawable/ic_home" android:title="Home" android:textStyle="bold" /><item android:id="@+id/nav_announcements" android:icon="@drawable/ic_news" android:title="Announcements" /><item android:id="@+id/nav_service" android:icon="@drawable/ic_calendar" android:title="Event Calendar" /><item android:id="@+id/nav_profile" android:icon="@drawable/ic_person" android:title="My Profile" /></group><group android:checkableBehavior="single" android:id="@+id/nav_sub_menu"><item android:id="@+id/nav_app_info" android:icon="@drawable/ic_info" android:title="App Info" /></group></menu><!-- Settings - Removed
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings" 
+        />
+
+-->

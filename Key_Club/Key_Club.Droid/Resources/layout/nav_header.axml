@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:background="@drawable/header_image">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:layout_marginTop="24dp"
+        android:gravity="bottom">
+        <ImageView
+            android:id="@+id/navHeaderImage"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/kc_logo" />
+        <TextView
+            android:id="@+id/navHeaderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi, Key Club Member"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_below="@+id/navHeaderImage" />
+        <TextView
+            android:id="@+id/navHeaderWelcomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to the new Key Club app!"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/navHeaderName" />
+    </RelativeLayout>
+</FrameLayout>

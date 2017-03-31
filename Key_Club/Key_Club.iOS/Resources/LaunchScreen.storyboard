@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="X5k-f2-b5h">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="gAE-YM-kbH">
+            <objects>
+                <viewController id="X5k-f2-b5h" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y8P-hJ-Z43"/>
+                        <viewControllerLayoutGuide type="bottom" id="9ZL-r4-8FZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yd7-JS-zBw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Icon-60.png" translatesAutoresizingMaskIntoConstraints="NO" id="23">
+                                <rect key="frame" x="270" y="270" width="60" height="60"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="45" translatesAutoresizingMaskIntoConstraints="NO" usesAttributedText="YES">
+                                <rect key="frame" x="20" y="570" width="560" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Developed by Andres Gutierrez">
+                                        <attributes>
+                                            <color key="NSColor" colorSpace="calibratedRGB" red="1" green="0.996078431372549" blue="0.996078431372549" alpha="1"/>
+                                            <font key="NSFont" name="Avenir-Light" family="Avenir" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <constraints>
+                                    <constraint id="55" firstItem="45" firstAttribute="height" constant="21"/>
+                                </constraints>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.59607843137254901" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="23" firstAttribute="centerY" secondItem="yd7-JS-zBw" secondAttribute="centerY" priority="1" id="39"/>
+                            <constraint firstItem="23" firstAttribute="centerX" secondItem="yd7-JS-zBw" secondAttribute="centerX" priority="1" id="41"/>
+                            <constraint id="52" firstItem="45" firstAttribute="leading" secondItem="yd7-JS-zBw" secondAttribute="leading" constant="20"/>
+                            <constraint id="53" firstItem="yd7-JS-zBw" firstAttribute="bottom" secondItem="45" secondAttribute="bottom" constant="9"/>
+                            <constraint id="54" firstItem="yd7-JS-zBw" firstAttribute="trailing" secondItem="45" secondAttribute="trailing" constant="20"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XAI-xm-WK6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="349" y="339"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon-60.png" width="60" height="60"/>
+        <image name="iTunesArtwork.png" width="512" height="512"/>
+        <image name="Images/KC_Key.png" width="256" height="113"/>
+        <image name="Images/KC_Logo_Text_Blue.png" width="638" height="94"/>
+        <image name="Images/KC_Logo.png" width="633" height="630"/>
+        <image name="Images/Calendar.png" width="30" height="30"/>
+        <image name="Images/Home.png" width="30" height="30"/>
+        <image name="Images/User.png" width="30" height="30"/>
+        <image name="Images/Attention.png" width="30" height="30"/>
+        <image name="Icon.png" width="57" height="57"/>
+        <image name="Icon-Small.png" width="29" height="29"/>
+        <image name="Icon-Small-40.png" width="40" height="40"/>
+        <image name="Images/Circle.png" width="128" height="128"/>
+        <image name="Images/ArrowLeft.png" width="44" height="44"/>
+        <image name="Images/ArrowRight.png" width="44" height="44"/>
+        <image name="Images/LeftArrow.png" width="24" height="40"/>
+        <image name="Images/backButton.png" width="128" height="128"/>
+    </resources>
+</document>
