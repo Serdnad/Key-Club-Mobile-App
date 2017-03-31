@@ -1,4 +1,4 @@
-# Key-Club-Mobile-App
+# Key Club Mobile App
 Unofficial Key Club App created with Xamarin
 
 This repository hosts the Android and iOS projects for the unofficial key club app. Any other projects (windows phone, etc.) are empty/nonworking and should either be implemented or deleted. Further development on the app is to coincide with the goals outlined here.
