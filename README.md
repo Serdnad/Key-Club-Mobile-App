@@ -10,5 +10,6 @@ This repository hosts the Android and iOS projects for the unofficial key club a
 - [ ] Redesign new event UI
 - [ ] Automatic Refresh after uploading Ann/Event
 - [ ] Update Branding
+- [ ] Update read.md with feature list, proper app description
 
 Any additional points for consideration should be proposed through a comment or pull request of an updated README.md.
