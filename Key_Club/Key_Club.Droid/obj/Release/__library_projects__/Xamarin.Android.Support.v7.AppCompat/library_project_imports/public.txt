@@ -18,6 +18,12 @@ style TextAppearance.AppCompat.Light.Widget.PopupMenu.Small
 style TextAppearance.AppCompat.Medium
 style TextAppearance.AppCompat.Medium.Inverse
 style TextAppearance.AppCompat.Menu
+style TextAppearance.AppCompat.Notification
+style TextAppearance.AppCompat.Notification.Info
+style TextAppearance.AppCompat.Notification.Line2
+style TextAppearance.AppCompat.Notification.Media
+style TextAppearance.AppCompat.Notification.Time
+style TextAppearance.AppCompat.Notification.Title
 style TextAppearance.AppCompat.SearchResult.Subtitle
 style TextAppearance.AppCompat.SearchResult.Title
 style TextAppearance.AppCompat.Small
@@ -36,6 +42,8 @@ style TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse
 style TextAppearance.AppCompat.Widget.ActionMode.Title
 style TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse
 style TextAppearance.AppCompat.Widget.Button
+style TextAppearance.AppCompat.Widget.Button.Borderless.Colored
+style TextAppearance.AppCompat.Widget.Button.Colored
 style TextAppearance.AppCompat.Widget.Button.Inverse
 style TextAppearance.AppCompat.Widget.DropDownItem
 style TextAppearance.AppCompat.Widget.PopupMenu.Header
@@ -289,6 +297,7 @@ attr spinnerDropDownItemStyle
 attr spinnerStyle
 attr splitTrack
 attr srcCompat
+attr state_above_anchor
 attr submitBackground
 attr subtitle
 attr subtitleTextAppearance
@@ -312,6 +321,8 @@ attr textColorAlertDialogListItem
 attr theme
 attr thickness
 attr thumbTextPadding
+attr thumbTint
+attr thumbTintMode
 attr tickMark
 attr tickMarkTint
 attr tickMarkTintMode
@@ -328,6 +339,8 @@ attr titleTextStyle
 attr toolbarNavigationButtonStyle
 attr toolbarStyle
 attr track
+attr trackTint
+attr trackTintMode
 attr voiceIcon
 attr windowActionBar
 attr windowActionBarOverlay

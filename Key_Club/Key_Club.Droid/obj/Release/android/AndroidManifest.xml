@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.AmazeMeGames.KeyClub" android:installLocation="auto" android:versionCode="1" android:versionName="beta">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="15" />
+  <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <application android:label="Key Club" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon">
+    <activity android:icon="@mipmap/icon" android:label="Key Club" android:screenOrientation="sensorPortrait" android:theme="@style/Theme.MainTheme" android:name="md505c6d22fffa1a14ca8a2a83beabb96fe.MainActivity" />
+    <activity android:icon="@mipmap/icon" android:label="Key Club" android:screenOrientation="sensorPortrait" android:theme="@style/Theme.MainTheme" android:name="md505c6d22fffa1a14ca8a2a83beabb96fe.SignIn" />
+    <activity android:icon="@mipmap/icon" android:label="Key Club" android:screenOrientation="sensorPortrait" android:theme="@style/Theme.SplashTheme" android:name="md505c6d22fffa1a14ca8a2a83beabb96fe.Splash">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <receiver android:name="md5e6df0d51c0b26573e8336e434596095c.NetworkReachability_NetworkStatusChangeBroadcastReceiver" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.AmazeMeGames.KeyClub.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>
